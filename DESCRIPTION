@@ -1,0 +1,24 @@
+Package: easyPlots
+Title: Tools for Plotting and GO Enrichment Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alvaro", "Gutierrez", email = "gutierrez.alvaro.o.c@gmail.com", role = c("aut", "cre"))
+Description: A set of tools to create customizable plots and perform Gene Ontology 
+    enrichment analysis using clusterProfiler and other packages. Includes functions 
+    to generate volcano plots, ontology plots, and GO enrichment summaries with optional 
+    translation and filtering capabilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    clusterProfiler,
+    dplyr,
+    polyglotr,
+    stringr,
+    ggplot2,
+    ggpubr,
+    ggrepel,
+    grid,
+    utils,
+    scales
